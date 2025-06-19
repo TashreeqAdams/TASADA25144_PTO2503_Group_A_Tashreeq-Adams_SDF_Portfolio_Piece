@@ -15,8 +15,7 @@
 }
 
 .info_box {
-  width: 80%;
-  height: 300px;
+  width: 1318px;
   margin: auto;
   display: flex;
   border-radius: 30px;
@@ -42,8 +41,8 @@ img {
 }
 
 .biography {
-  width: 75%;
-  height: 100%;
+  width: 994.69px;
+  height: 300px;
   background-color: white;
   border-radius: 30px;
   padding-top: 59px;
@@ -57,8 +56,8 @@ img {
 }
 
 .proficiency {
-  width: 50%;
-  height: 100%;
+  width: 563.9px;
+  height: 428.37px;
   background-color: white;
   border-radius: 30px;
   padding-top: 41px;
@@ -146,8 +145,8 @@ img {
 }
 
 .skill {
-  width: 50%;
-  height: 100%;
+  width: 706px;
+  height: 429px;
   background-color: white;
   border-radius: 30px;
   padding: 28px;
@@ -176,6 +175,12 @@ img {
   padding-bottom: 43px;
   padding-left: 29px;
   padding-right: 29px;
+  height: 755px;
+  width: 1318px;
+}
+
+.projects h1 {
+  text-align: center;
 }
 
 .projectyears {
@@ -185,57 +190,132 @@ img {
 }
 
 .portweb {
-  width: 20%;
-  height: 100%;
+  width: 280px;
+  height: 581px;
   background-color: #4a8b70;
   border-radius: 30px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.year_heart {
+  display: flex;
+}
+
+.yr {
+  width: 85%;
+}
+
+.heart {
+  width: 15%;
 }
 
 .podapp {
-  width: 20%;
-  height: 100%;
+  width: 280px;
+  height: 581px;
   background-color: #e7f0ec;
   border-radius: 30px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 19px;
+  padding-right: 19px;
 }
 
 .agileboard {
-  width: 20%;
-  height: 100%;
+  width: 280px;
+  height: 581px;
   background-color: #e7f0ec;
   border-radius: 30px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 19px;
+  padding-right: 19px;
 }
 
 .supercoolproject {
-  width: 20%;
-  height: 100%;
+  width: 280px;
+  height: 581px;
   background-color: #e7f0ec;
   border-radius: 30px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 19px;
+  padding-right: 19px;
 }
 
 .education {
   gap: 30px;
   display: flex;
-  flex-direction: column;
-  background-color: white;
+  flex-direction: row;
 }
 
 .edudates {
   display: flex;
-  flex-direction: row;
-  height: 100%;
+  flex-direction: column;
+  height: 847.06px;
+  width: 994.69px;
   gap: 10px;
-}
-
-.edu {
-  width: 80%;
-  height: 100%;
   background-color: white;
   border-radius: 30px;
+  padding: 29px;
+}
+
+.ed1 {
+  width: 936.61px;
+  height: 242.02px;
+  background-color: #4a8b70;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.ed2 {
+  width: 936.61px;
+  height: 242.02px;
+  background-color: #e7f0ec;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.ed3 {
+  width: 936.61px;
+  height: 242.02px;
+  background-color: #e7f0ec;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.ed1date,
+.ed2date,
+.ed3date {
+  width: 30%;
+}
+
+.ed1list,
+.ed2list,
+.ed3list {
+  width: 70%;
 }
 
 .tools {
-  width: 20%;
-  height: 100%;
+  width: 300px;
+  height: 847.06px;
   background-color: white;
   border-radius: 30px;
   text-align: center;
@@ -251,17 +331,37 @@ img {
 
 .languages {
   width: 100%;
-  background-color: orangered;
+  background-color: #e7f0ec;
+  border-radius: 14px;
+  padding-top: 38.72px;
+  padding-bottom: 38.72px;
+  padding-left: 9.68px;
+  padding-right: 9.68px;
+}
+
+.tool1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.tool1list img {
+  width: 41px;
+  height: 41px;
 }
 
 .design {
   width: 100%;
-  background-color: red;
+  background-color: #e7f0ec;
+  border-radius: 14px;
 }
 
 .tool {
   width: 100%;
-  background-color: orangered;
+  background-color: #e7f0ec;
+  border-radius: 14px;
 }
 
 .experience {
@@ -281,6 +381,12 @@ img {
   height: 145px;
   background-color: #4a8b70;
   border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .jan {
@@ -288,6 +394,12 @@ img {
   height: 145px;
   background-color: #e7f0ec;
   border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .feb {
@@ -295,10 +407,24 @@ img {
   height: 145px;
   background-color: #e7f0ec;
   border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.ex1date {
+  width: 20%;
+}
+
+.ex1list {
+  width: 80%;
 }
 
 footer {
-  width: 80%;
+  width: 1322px;
   height: 158px;
   background-color: #d76239;
   margin: auto;
