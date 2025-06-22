@@ -5,9 +5,16 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  min-width: fit-content;
+  background-image: url(./images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container {
-  background-color: grey;
-  width: 100vw;
+  width: 100%;
   padding: 63px 25px;
   gap: 47.9px;
   display: grid;
@@ -31,7 +38,7 @@
   border-radius: 30px;
 }
 
-img {
+.icon img {
   display: block;
   width: 100%;
   height: 100%;
@@ -51,9 +58,10 @@ img {
   gap: 10px;
 }
 
-.biography p1 {
+.biography h4 {
   font-weight: 600;
   font-size: 36px;
+  margin-bottom: 6px;
 }
 
 .biography p {
@@ -62,7 +70,7 @@ img {
   color: #5c5c5c;
 }
 
-p1 {
+h4 {
   font-weight: 500;
   font-size: 33.88px;
   line-height: 150%;
@@ -189,7 +197,7 @@ p1 {
   font-family: "Poppins", sans-serif;
 }
 
-.projects p1 {
+.projects h4 {
   text-align: center;
 }
 
@@ -209,20 +217,21 @@ p1 {
   padding-bottom: 22px;
   padding-left: 19px;
   padding-right: 19px;
-  color: white;
+  color: #e7f0ec;
   font-family: "Poppins", sans-serif;
 }
 
-.portweb p1 {
+.portweb h4 {
   font-weight: 500;
   font-size: 24.2px;
   line-height: 150%;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
+  text-align: left;
 }
 
 .portweb p {
   font-weight: 400;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 150%;
   padding-bottom: 24px;
 }
@@ -254,16 +263,20 @@ p1 {
   padding-right: 19px;
 }
 
-.podapp p1 {
+.podapp h4 {
   font-weight: 500;
   font-size: 24.2px;
   line-height: 150%;
   padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 24.2px;
+  line-height: 150%;
+  text-align: left;
 }
 
 .podapp p {
   font-weight: 400;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 150%;
   padding-bottom: 24px;
 }
@@ -279,16 +292,20 @@ p1 {
   padding-right: 19px;
 }
 
-.agileboard p1 {
+.agileboard h4 {
   font-weight: 500;
   font-size: 24.2px;
   line-height: 150%;
   padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 24.2px;
+  line-height: 150%;
+  text-align: left;
 }
 
 .agileboard p {
   font-weight: 400;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 150%;
   padding-bottom: 24px;
 }
@@ -304,16 +321,20 @@ p1 {
   padding-right: 19px;
 }
 
-.supercoolproject p1 {
+.supercoolproject h4 {
   font-weight: 500;
   font-size: 24.2px;
   line-height: 150%;
   padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 24.2px;
+  line-height: 150%;
+  text-align: left;
 }
 
 .supercoolproject p {
   font-weight: 400;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 150%;
   padding-bottom: 24px;
 }
@@ -329,7 +350,7 @@ p1 {
   flex-direction: column;
   height: 847.06px;
   width: 994.69px;
-  gap: 10px;
+  gap: 20px;
   background-color: white;
   border-radius: 30px;
   padding: 29px;
@@ -346,7 +367,8 @@ p1 {
   padding-bottom: 27px;
   padding-left: 21px;
   padding-right: 21px;
-  color: white;
+  color: #e7f0ec;
+  position: relative;
 }
 
 .ed2 {
@@ -378,15 +400,55 @@ p1 {
 .ed1date,
 .ed2date,
 .ed3date {
-  width: 30%;
+  width: 40%;
 }
 
 .ed1list,
 .ed2list,
 .ed3list {
-  width: 70%;
+  width: 60%;
   font-weight: 400;
   font-size: 19.36px;
+  line-height: 150%;
+}
+
+.edumostrecent {
+  background-color: #d76239;
+  width: 123.4px;
+  height: 32.68px;
+  padding-top: 4.84px;
+  padding-bottom: 4.84px;
+  border-radius: 142.97px;
+  text-align: center;
+  color: white;
+  top: 12px;
+  left: 1100px;
+  margin-left: 20px;
+  position: absolute;
+  display: none;
+}
+
+.yr {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 150%;
+}
+
+.institution {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.qualification {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 150%;
+}
+
+.type {
+  font-weight: 400;
+  font-size: 19px;
   line-height: 150%;
 }
 
@@ -398,30 +460,108 @@ p1 {
   text-align: center;
 }
 
+.tools h4 {
+  padding-top: 31px;
+  margin-bottom: 36px;
+}
+
 .tooldetails {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin: auto;
-  gap: 10px;
+  gap: 29px;
 }
 
 .languages {
-  width: 100%;
+  width: 183.93px;
   background-color: #e7f0ec;
   border-radius: 14px;
+  position: relative;
+  margin: auto;
+}
+
+.languages .tool1list {
+  height: 273.9px;
   padding-top: 38.72px;
   padding-bottom: 38.72px;
   padding-left: 9.68px;
   padding-right: 9.68px;
 }
 
+.languages .tool1 {
+  width: 95px;
+  height: 26.68px;
+  padding-top: 4.84px;
+  padding-bottom: 4.84px;
+  padding-left: 14.52px;
+  padding-right: 14.52px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 142%;
+  top: -12px;
+  left: 45px;
+}
+
+.design .tool1list {
+  height: 152px;
+  padding-top: 38.72px;
+  padding-bottom: 38.72px;
+  padding-left: 9.68px;
+  padding-right: 9.68px;
+}
+
+.design .tool1 {
+  width: 71px;
+  height: 26.68px;
+  padding-top: 4.84px;
+  padding-bottom: 4.84px;
+  padding-left: 14.52px;
+  padding-right: 14.52px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 142%;
+  top: -12px;
+  left: 55px;
+}
+
+.tool .tool1list {
+  height: 198.45px;
+  padding-top: 38.72px;
+  padding-bottom: 38.72px;
+  padding-left: 9.68px;
+  padding-right: 9.68px;
+}
+
+.tool .tool1 {
+  width: 59px;
+  height: 26.68px;
+  padding-top: 4.84px;
+  padding-bottom: 4.84px;
+  padding-left: 14.52px;
+  padding-right: 14.52px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 142%;
+  top: -12px;
+  left: 62px;
+}
+
 .tool1 {
   background-color: black;
   color: white;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 142px;
   width: 40%;
+  position: absolute;
+  width: 95px;
+}
+
+.tool1list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 10px;
 }
 
 .tool1list img {
@@ -430,15 +570,19 @@ p1 {
 }
 
 .design {
-  width: 100%;
+  width: 183.93px;
   background-color: #e7f0ec;
   border-radius: 14px;
+  position: relative;
+  margin: auto;
 }
 
 .tool {
-  width: 100%;
+  width: 183.93px;
   background-color: #e7f0ec;
   border-radius: 14px;
+  position: relative;
+  margin: auto;
 }
 
 .experience {
@@ -454,7 +598,7 @@ p1 {
 }
 
 .aug {
-  width: 100%;
+  width: 1260px;
   height: 145px;
   background-color: #4a8b70;
   border-radius: 30px;
@@ -464,11 +608,12 @@ p1 {
   padding-bottom: 19px;
   padding-left: 25px;
   padding-right: 25px;
-  color: white;
+  color: #e7f0ec;
+  position: relative;
 }
 
 .jan {
-  width: 100%;
+  width: 1260px;
   height: 145px;
   background-color: #e7f0ec;
   border-radius: 30px;
@@ -481,7 +626,7 @@ p1 {
 }
 
 .feb {
-  width: 100%;
+  width: 1260px;
   height: 145px;
   background-color: #e7f0ec;
   border-radius: 30px;
@@ -494,14 +639,37 @@ p1 {
 }
 
 .ex1date {
-  width: 253px;
+  width: 25%;
 }
 
 .ex1list {
-  width: 943px;
+  width: 70%;
   font-weight: 400;
   font-size: 19.36px;
   line-height: 150%;
+}
+
+.mostrecent {
+  background-color: #d76239;
+  width: 123.4px;
+  height: 32.68px;
+  padding-top: 4.84px;
+  padding-bottom: 4.84px;
+  border-radius: 142.97px;
+  text-align: center;
+  color: white;
+  top: 12px;
+  left: 1100px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.aug .ex1list {
+  width: 65%;
+}
+
+.infolist {
+  display: flex;
 }
 
 .date {
@@ -536,10 +704,627 @@ footer p {
   font-weight: 500;
   font-size: 33.88px;
   line-height: 150%;
+  padding-bottom: 12.92px;
 }
 
 footer span {
   font-weight: 400;
   font-size: 24.2px;
   line-height: 150%;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 501px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .bio {
+    gap: 7px;
+  }
+
+  .biography {
+    padding: 12px;
+    width: 137px;
+  }
+
+  .biography h4 {
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 104%;
+  }
+
+  .biography p {
+    font-size: 10px;
+  }
+
+  .biography span {
+    display: none;
+  }
+
+  .icon {
+    width: 147px;
+    height: 137px;
+  }
+
+  .icon img {
+    border-radius: 12px;
+  }
+
+  .biography {
+    width: 163px;
+    height: 137px;
+    border-radius: 12px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 12px;
+  }
+
+  .proficiency {
+    width: 318px;
+    height: 177px;
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .proficiency h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 16px;
+  }
+
+  .row1 {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+    gap: 5px;
+  }
+  .row2,
+  .row3,
+  .row4,
+  .row5 {
+    gap: 17px;
+  }
+
+  .lang1,
+  .lang2,
+  .lang3,
+  .lang4 {
+    width: 59px;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3,
+  .bar4 {
+    border-radius: 3px;
+  }
+
+  .bar1 {
+    width: 131px;
+  }
+
+  .bar2 {
+    width: 96px;
+  }
+
+  .bar3 {
+    width: 47px;
+  }
+
+  .bar4 {
+    width: 47px;
+  }
+
+  .skill {
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .skill h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 16px;
+  }
+
+  .pill {
+    font-weight: 400px;
+    font-size: 10px;
+    line-height: 150%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 23px;
+    text-align: middle;
+  }
+
+  .pill_container {
+    width: 294px;
+    height: 116px;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .lang1,
+  .lang2,
+  .lang3,
+  .lang4 {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+  }
+
+  .skill {
+    width: 318px;
+    height: 177px;
+  }
+
+  .projects {
+    width: 319px;
+    height: 630px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    border-radius: 12px;
+  }
+
+  .projects h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 6px;
+    text-align: left;
+  }
+
+  .projectyears {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    gap: 15px 10px;
+  }
+
+  .portweb,
+  .podapp,
+  .agileboard,
+  .supercoolproject {
+    width: 140px;
+    height: 274.91px;
+    padding: 9.69px;
+    border-radius: 12px;
+  }
+
+  .portweb .yr {
+    font-size: 12px;
+  }
+
+  .podapp .yr {
+    font-size: 12px;
+  }
+
+  .agileboard .yr {
+    font-size: 12px;
+  }
+
+  .supercoolproject .yr {
+    font-size: 12px;
+  }
+
+  .year_heart {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    padding-bottom: 9px;
+    height: 18px;
+  }
+  .heart img {
+    border-radius: 0px;
+    width: 13.32px;
+    height: 11.37px;
+  }
+
+  .portweb h4 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    padding-bottom: 0px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+  }
+
+  .portweb p {
+    font-weight: 400;
+    font-size: 9.69px;
+    line-height: 150%;
+    padding-bottom: 9px;
+  }
+
+  .podapp h4 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    padding-bottom: 0px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+  }
+
+  .podapp p {
+    font-weight: 400;
+    font-size: 9.69px;
+    line-height: 150%;
+    padding-bottom: 9px;
+  }
+
+  .podapp img,
+  .agileboard img,
+  .supercoolproject img {
+    display: none;
+  }
+
+  .agileboard h4 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    padding-bottom: 0px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+  }
+
+  .agileboard p {
+    font-weight: 400;
+    font-size: 9.69px;
+    line-height: 150%;
+    padding-bottom: 9px;
+  }
+
+  .supercoolproject h4 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    padding-bottom: 0px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+  }
+
+  .supercoolproject p {
+    font-weight: 400;
+    font-size: 9.69px;
+    line-height: 150%;
+    padding-bottom: 9px;
+  }
+
+  .info_box {
+    margin: 0;
+    width: 318px;
+  }
+
+  .education {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .education h4 {
+    margin-bottom: 0px;
+  }
+
+  .edudates {
+    width: 319px;
+    height: 461px;
+    padding: 12px;
+    border-radius: 12px;
+    gap: 10px;
+  }
+
+  .edudates h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .ed1,
+  .ed2,
+  .ed3 {
+    width: 295px;
+    height: 172px;
+    padding: 8px;
+    border-radius: 8px;
+    gap: 10px;
+  }
+
+  .ed2,
+  .ed3 {
+    height: 127px;
+  }
+
+  .ed1date,
+  .ed2date,
+  .ed3date {
+    width: 45%;
+  }
+
+  .ed1list,
+  .ed2list,
+  .ed3list {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 150%;
+    width: 55%;
+  }
+
+  .edumostrecent {
+    display: block;
+    top: 8px;
+    left: 226px;
+    width: 61px;
+    height: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 155%;
+    font-weight: 500;
+    margin-left: 0px;
+    position: absolute;
+  }
+
+  .ed1list {
+    margin-top: 20px;
+  }
+
+  .yr {
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 150%;
+    height: 18px;
+  }
+
+  .institution {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+  }
+  .qualification {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 150%;
+  }
+
+  .type {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 150%;
+  }
+
+  .tools {
+    width: 319px;
+    height: 163px;
+    border-radius: 12px;
+    padding: 0px;
+  }
+
+  .tools h4 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    padding-top: 13px;
+    padding-bottom: 4px;
+  }
+
+  .tooldetails {
+    padding-top: 7px;
+    width: 90%;
+  }
+
+  .languages .tool1 {
+    font-size: 5px;
+    line-height: 142%;
+    width: 41px;
+    height: 11px;
+    padding: 2px 6px 2px 6px;
+    position: absolute;
+    top: -6px;
+    left: 19px;
+  }
+
+  .design .tool1 {
+    font-size: 5px;
+    line-height: 142%;
+    width: 34px;
+    height: 11px;
+    padding: 2px 6px 2px 6px;
+    position: absolute;
+    top: -6px;
+    left: 19px;
+  }
+
+  .tool .tool1 {
+    font-size: 5px;
+    line-height: 142%;
+    width: 34px;
+    height: 11px;
+    padding: 2px 6px 2px 6px;
+    position: absolute;
+    top: -6px;
+    left: 19px;
+  }
+
+  .tool1list {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .languages .tool1list {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 104px;
+    width: 76px;
+    gap: 16px;
+  }
+
+  .design .tool1list {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 104px;
+    width: 76px;
+    gap: 16px;
+  }
+
+  .tool .tool1list {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 104px;
+    width: 76px;
+    gap: 16px;
+  }
+
+  .tool1list img {
+    width: 17px;
+    height: 17px;
+  }
+
+  .languages,
+  .design,
+  .tool {
+    width: 76px;
+    height: 104px;
+    border-radius: 6px;
+  }
+
+  .design {
+    order: 0;
+  }
+  .languages {
+    order: 2;
+  }
+  .tool {
+    order: 1;
+  }
+
+  .tooldetails {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+  }
+
+  .experience {
+    width: 319px;
+    height: 487px;
+    border-radius: 12px;
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .experience h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 6px;
+  }
+
+  .date {
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 150%;
+    padding-bottom: 8px;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+  }
+
+  .location {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 150%;
+  }
+
+  .ex1date {
+    width: 45%;
+  }
+
+  .ex1list {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 150%;
+  }
+
+  .aug .ex1list {
+    padding-top: 20px;
+  }
+
+  .mostrecent {
+    width: 61px;
+    height: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 155%;
+    font-weight: 500;
+    margin-left: 0px;
+    top: 8px;
+    left: 226px;
+  }
+
+  .aug {
+    display: flex;
+  }
+
+  .aug,
+  .jan,
+  .feb {
+    width: 295px;
+    height: 141px;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  footer {
+    width: 319px;
+    height: 89px;
+    margin: 0;
+    padding: 12px;
+    border-radius: 12px;
+    padding: 12px;
+  }
+
+  footer p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    padding-bottom: 0px;
+  }
+
+  footer span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+  }
+
+  .hide {
+    display: none;
+  }
 }
